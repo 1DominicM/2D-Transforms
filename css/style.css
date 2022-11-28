@@ -1,0 +1,31 @@
+.fail {
+    transform: translate(0px, -475px) rotate(20deg);
+}
+
+.square1 {
+    transform: scale(.2, .3);
+}
+
+.square2 {
+    transform: scaleX(.2);
+}
+
+.square3 {
+    transform: scaleY(.2);
+}
+
+.square4 {
+    transform: skewX(20deg);
+}
+
+.square5 {
+    transform: skewY(20deg);
+}
+
+.square6 {
+    transform: skew(20deg, 10deg);
+}
+
+.square7 {
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
