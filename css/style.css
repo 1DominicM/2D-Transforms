@@ -29,3 +29,38 @@
 .square7 {
     transform: matrix(1, -0.3, 0, 1, 0, 0);
 }
+
+div {
+    width: 300px;
+    height: 100px;
+    background-color: #333;
+    border: 1px solid black;
+    color: white;
+  }
+
+  #myDiv {
+    transform: rotateZ(0deg);
+    transition-duration: 2s;
+  }
+
+  #myDiv:hover {
+    transform: rotateZ(180deg);
+  }
+
+  #myDiv2 {
+    transform: rotateZ(0deg);
+    transition-duration: 2s;
+  }
+
+  #myDiv2:hover {
+    transform: rotateZ(180deg);
+  }
+
+  #myDiv3 {
+    transform: rotateZ(0deg);
+    transition-duration: 2s;
+  }
+
+  #myDiv3:hover {
+    transform: rotateZ(180deg);
+  }
