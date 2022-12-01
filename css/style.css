@@ -33,32 +33,36 @@
 div {
     width: 300px;
     height: 100px;
-    background-color: #333;
-    border: 1px solid black;
-    color: white;
+    background-color: lightblue;
+    border: 1px solid blue;
+    color: black;
   }
 
   #myDiv {
-    transform: rotateZ(0deg);
-    transition-duration: 2s;
+    transform: rotateX(0deg);
+    transition: transform 3s, background-color 2s, color 4s;
   }
 
   #myDiv:hover {
-    transform: rotateZ(180deg);
+    transform: rotateX(180deg);
+    background-color: teal;
+    color: white;
   }
 
   #myDiv2 {
-    transform: rotateZ(0deg);
-    transition-duration: 2s;
+    transform: rotateY(0deg);
+    transition: transform 5s;
+    transition-timing-function: ease-in;
   }
 
   #myDiv2:hover {
-    transform: rotateZ(180deg);
+    transform: translate(500px,0);
   }
 
   #myDiv3 {
     transform: rotateZ(0deg);
     transition-duration: 2s;
+    transition-delay: 3s;
   }
 
   #myDiv3:hover {
